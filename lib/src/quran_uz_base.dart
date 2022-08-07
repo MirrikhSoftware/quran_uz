@@ -1,5 +1,7 @@
+part 'sura_list.dart';
+part 'verses.dart';
 
-/// Checks if you are awesome. Spoiler: you are.
-class Awesome {
-  bool get isAwesome => false;
+class QuranUz {
+  List<Map<String, dynamic>> get suraList => _suraList;
+  List<Map<String, dynamic>> get verses => _verses;
 }
