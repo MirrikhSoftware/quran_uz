@@ -1,16 +1,19 @@
 import 'dart:convert';
 
 SuraModel suraModelFromJson(String str) => SuraModel.fromJson(json.decode(str));
+
 String suraModelToJson(SuraModel data) => json.encode(data.toJson());
+
 class SuraModel {
   SuraModel({
-      int? id, 
-      bool? isMakki, 
-      String? meaningUz, 
-      String? nameAr, 
-      String? nameUz, 
-      int? versesCount, 
-      int? versesStart,}){
+    int? id,
+    bool? isMakki,
+    String? meaningUz,
+    String? nameAr,
+    String? nameUz,
+    int? versesCount,
+    int? versesStart,
+  }) {
     _id = id;
     _isMakki = isMakki;
     _meaningUz = meaningUz;
@@ -18,7 +21,7 @@ class SuraModel {
     _nameUz = nameUz;
     _versesCount = versesCount;
     _versesStart = versesStart;
-}
+  }
 
   SuraModel.fromJson(dynamic json) {
     _id = json['id'];
@@ -29,6 +32,7 @@ class SuraModel {
     _versesCount = json['verses_count'];
     _versesStart = json['verses_start'];
   }
+
   int? _id;
   bool? _isMakki;
   String? _meaningUz;
@@ -36,27 +40,38 @@ class SuraModel {
   String? _nameUz;
   int? _versesCount;
   int? _versesStart;
-SuraModel copyWith({  int? id,
-  bool? isMakki,
-  String? meaningUz,
-  String? nameAr,
-  String? nameUz,
-  int? versesCount,
-  int? versesStart,
-}) => SuraModel(  id: id ?? _id,
-  isMakki: isMakki ?? _isMakki,
-  meaningUz: meaningUz ?? _meaningUz,
-  nameAr: nameAr ?? _nameAr,
-  nameUz: nameUz ?? _nameUz,
-  versesCount: versesCount ?? _versesCount,
-  versesStart: versesStart ?? _versesStart,
-);
+
+  SuraModel copyWith({
+    int? id,
+    bool? isMakki,
+    String? meaningUz,
+    String? nameAr,
+    String? nameUz,
+    int? versesCount,
+    int? versesStart,
+  }) =>
+      SuraModel(
+        id: id ?? _id,
+        isMakki: isMakki ?? _isMakki,
+        meaningUz: meaningUz ?? _meaningUz,
+        nameAr: nameAr ?? _nameAr,
+        nameUz: nameUz ?? _nameUz,
+        versesCount: versesCount ?? _versesCount,
+        versesStart: versesStart ?? _versesStart,
+      );
+
   int? get id => _id;
+
   bool? get isMakki => _isMakki;
+
   String? get meaningUz => _meaningUz;
+
   String? get nameAr => _nameAr;
+
   String? get nameUz => _nameUz;
+
   int? get versesCount => _versesCount;
+
   int? get versesStart => _versesStart;
 
   Map<String, dynamic> toJson() {
@@ -70,5 +85,4 @@ SuraModel copyWith({  int? id,
     map['verses_start'] = _versesStart;
     return map;
   }
-
 }
