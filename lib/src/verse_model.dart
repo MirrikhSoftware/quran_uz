@@ -1,12 +1,11 @@
 import 'dart:convert';
 
-VerseModel verseModelFromJson(String str) =>
-    VerseModel.fromJson(json.decode(str));
+Verse verseModelFromJson(String str) => Verse.fromJson(json.decode(str));
 
-String verseModelToJson(VerseModel data) => json.encode(data.toJson());
+String verseModelToJson(Verse data) => json.encode(data.toJson());
 
-class VerseModel {
-  VerseModel({
+class Verse {
+  Verse({
     int? id,
     int? paraNo,
     int? suraId,
@@ -24,7 +23,7 @@ class VerseModel {
     _meaning = meaning;
   }
 
-  VerseModel.fromJson(dynamic json) {
+  Verse.fromJson(dynamic json) {
     _id = json['id'];
     _paraNo = json['para_no'];
     _suraId = json['sura_id'];
@@ -42,7 +41,7 @@ class VerseModel {
   String? _arabic;
   String? _meaning;
 
-  VerseModel copyWith({
+  Verse copyWith({
     int? id,
     int? paraNo,
     int? suraId,
@@ -51,7 +50,7 @@ class VerseModel {
     String? arabic,
     String? meaning,
   }) =>
-      VerseModel(
+      Verse(
         id: id ?? _id,
         paraNo: paraNo ?? _paraNo,
         suraId: suraId ?? _suraId,

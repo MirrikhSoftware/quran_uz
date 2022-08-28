@@ -1,11 +1,11 @@
 import 'dart:convert';
 
-SuraModel suraModelFromJson(String str) => SuraModel.fromJson(json.decode(str));
+Sura suraModelFromJson(String str) => Sura.fromJson(json.decode(str));
 
-String suraModelToJson(SuraModel data) => json.encode(data.toJson());
+String suraModelToJson(Sura data) => json.encode(data.toJson());
 
-class SuraModel {
-  SuraModel({
+class Sura {
+  Sura({
     int? id,
     bool? isMakki,
     String? meaningUz,
@@ -23,7 +23,7 @@ class SuraModel {
     _versesStart = versesStart;
   }
 
-  SuraModel.fromJson(dynamic json) {
+  Sura.fromJson(dynamic json) {
     _id = json['id'];
     _isMakki = json['is_makki'];
     _meaningUz = json['meaning_uz'];
@@ -41,7 +41,7 @@ class SuraModel {
   int? _versesCount;
   int? _versesStart;
 
-  SuraModel copyWith({
+  Sura copyWith({
     int? id,
     bool? isMakki,
     String? meaningUz,
@@ -50,7 +50,7 @@ class SuraModel {
     int? versesCount,
     int? versesStart,
   }) =>
-      SuraModel(
+      Sura(
         id: id ?? _id,
         isMakki: isMakki ?? _isMakki,
         meaningUz: meaningUz ?? _meaningUz,

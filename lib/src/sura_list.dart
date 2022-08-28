@@ -4,7 +4,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 1,
     "is_makki": true,
-    "meaning_uz": "Ochuvchi",
+    "meaning_uz": "Очувчи",
     "name_uz": "Фотиҳа",
     "verses_count": 7,
     "verses_start": 1,
@@ -13,7 +13,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 2,
     "is_makki": false,
-    "meaning_uz": "Sigir",
+    "meaning_uz": "Сигир",
     "name_uz": "Бақара",
     "verses_count": 286,
     "verses_start": 8,
@@ -22,7 +22,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 3,
     "is_makki": false,
-    "meaning_uz": "Imron oilasi",
+    "meaning_uz": "Имрон оиласи",
     "name_uz": "Оли Имрон",
     "verses_count": 200,
     "verses_start": 294,
@@ -31,7 +31,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 4,
     "is_makki": false,
-    "meaning_uz": "Ayollar",
+    "meaning_uz": "Аёллар",
     "name_uz": "Нисо",
     "verses_count": 176,
     "verses_start": 494,
@@ -40,7 +40,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 5,
     "is_makki": false,
-    "meaning_uz": "Dasturxon",
+    "meaning_uz": "Дастурхон",
     "name_uz": "Моида",
     "verses_count": 120,
     "verses_start": 670,
@@ -49,7 +49,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 6,
     "is_makki": true,
-    "meaning_uz": "Chorvalar",
+    "meaning_uz": "Чорвалар",
     "name_uz": "Анъом",
     "verses_count": 165,
     "verses_start": 790,
@@ -58,7 +58,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 7,
     "is_makki": true,
-    "meaning_uz": "Jannat bilan do‘zax o‘rtasini ajratib turadigan devor",
+    "meaning_uz": "Жаннат билан дўзах ўртасини ажратиб турадиган девор",
     "name_uz": "Аъроф",
     "verses_count": 206,
     "verses_start": 955,
@@ -67,7 +67,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 8,
     "is_makki": false,
-    "meaning_uz": "Oʻljalar",
+    "meaning_uz": "Ўлжалар",
     "name_uz": "Анфол",
     "verses_count": 75,
     "verses_start": 1161,
@@ -76,7 +76,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 9,
     "is_makki": false,
-    "meaning_uz": "Tavba",
+    "meaning_uz": "Тавба",
     "name_uz": "Тавба",
     "verses_count": 129,
     "verses_start": 1236,
@@ -85,7 +85,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 10,
     "is_makki": true,
-    "meaning_uz": "Yunus (nom)",
+    "meaning_uz": "Юнус (исм)",
     "name_uz": "Юнус",
     "verses_count": 109,
     "verses_start": 1365,
@@ -94,7 +94,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 11,
     "is_makki": true,
-    "meaning_uz": "Hud (nom)",
+    "meaning_uz": "Ҳуд (исм)",
     "name_uz": "Ҳуд",
     "verses_count": 123,
     "verses_start": 1474,
@@ -103,7 +103,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 12,
     "is_makki": true,
-    "meaning_uz": "Yusuf (nom)",
+    "meaning_uz": "Юсуф (исм)",
     "name_uz": "Юсуф",
     "verses_count": 111,
     "verses_start": 1597,
@@ -112,7 +112,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 13,
     "is_makki": false,
-    "meaning_uz": "Momaqaldiroq",
+    "meaning_uz": "Момақалдироқ",
     "name_uz": "Раъд",
     "verses_count": 43,
     "verses_start": 1708,
@@ -121,7 +121,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 14,
     "is_makki": false,
-    "meaning_uz": "Ibrohim (nom)",
+    "meaning_uz": "Иброҳим (исм)",
     "name_uz": "Иброҳим",
     "verses_count": 52,
     "verses_start": 1751,
@@ -130,7 +130,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 15,
     "is_makki": true,
-    "meaning_uz": "Madina va Shom o‘rtasidagi vodiy",
+    "meaning_uz": "Мадина ва Шом ўртасидаги водий",
     "name_uz": "Ҳижр",
     "verses_count": 99,
     "verses_start": 1803,
@@ -139,7 +139,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 16,
     "is_makki": true,
-    "meaning_uz": "Asalari",
+    "meaning_uz": "Асалари",
     "name_uz": "Наҳл",
     "verses_count": 128,
     "verses_start": 1902,
@@ -148,7 +148,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 17,
     "is_makki": true,
-    "meaning_uz": "Tungi sayr",
+    "meaning_uz": "Тунги сайр",
     "name_uz": "Исро",
     "verses_count": 111,
     "verses_start": 2030,
@@ -157,7 +157,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 18,
     "is_makki": true,
-    "meaning_uz": "Gʻor",
+    "meaning_uz": "Ғор",
     "name_uz": "Қаҳф",
     "verses_count": 110,
     "verses_start": 2141,
@@ -166,7 +166,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 19,
     "is_makki": true,
-    "meaning_uz": "Maryam (nom)",
+    "meaning_uz": "Марям (исм)",
     "name_uz": "Марям",
     "verses_count": 98,
     "verses_start": 2251,
@@ -175,7 +175,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 20,
     "is_makki": true,
-    "meaning_uz": "To, ha (harf)",
+    "meaning_uz": "То, ҳа (ҳарфлар)",
     "name_uz": "Тоҳо",
     "verses_count": 135,
     "verses_start": 2349,
@@ -184,7 +184,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 21,
     "is_makki": true,
-    "meaning_uz": "Payg‘ambarlar",
+    "meaning_uz": "Пайғамбарлар",
     "name_uz": "Анбиё",
     "verses_count": 112,
     "verses_start": 2484,
@@ -193,7 +193,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 22,
     "is_makki": false,
-    "meaning_uz": "Haj",
+    "meaning_uz": "Ҳаж",
     "name_uz": "Ҳаж",
     "verses_count": 78,
     "verses_start": 2596,
@@ -202,7 +202,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 23,
     "is_makki": true,
-    "meaning_uz": "Mo‘minlar",
+    "meaning_uz": "Мўминлар",
     "name_uz": "Муъминун",
     "verses_count": 118,
     "verses_start": 2674,
@@ -211,7 +211,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 24,
     "is_makki": false,
-    "meaning_uz": "Nur",
+    "meaning_uz": "Нур",
     "name_uz": "Нур",
     "verses_count": 64,
     "verses_start": 2792,
@@ -220,7 +220,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 25,
     "is_makki": true,
-    "meaning_uz": "haq bilan nohaqni ajratib berguvchi",
+    "meaning_uz": "Ҳақ билан ноҳақни ажратиб бергувчи",
     "name_uz": "Фурқон",
     "verses_count": 77,
     "verses_start": 2856,
@@ -229,7 +229,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 26,
     "is_makki": true,
-    "meaning_uz": "Shoirlar",
+    "meaning_uz": "Шоирлар",
     "name_uz": "Шуаро",
     "verses_count": 227,
     "verses_start": 2933,
@@ -238,7 +238,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 27,
     "is_makki": true,
-    "meaning_uz": "Chumoli",
+    "meaning_uz": "Чумоли",
     "name_uz": "Намл",
     "verses_count": 93,
     "verses_start": 3160,
@@ -247,7 +247,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 28,
     "is_makki": true,
-    "meaning_uz": "Qissa",
+    "meaning_uz": "Қисса",
     "name_uz": "Қасас",
     "verses_count": 88,
     "verses_start": 3253,
@@ -256,7 +256,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 29,
     "is_makki": true,
-    "meaning_uz": "Oʻrgimchak",
+    "meaning_uz": "Ўргимчак",
     "name_uz": "Анкабут",
     "verses_count": 69,
     "verses_start": 3341,
@@ -265,7 +265,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 30,
     "is_makki": true,
-    "meaning_uz": "Rum (davlat nomi)",
+    "meaning_uz": "Рум (давлат номи)",
     "name_uz": "Рум",
     "verses_count": 60,
     "verses_start": 3410,
@@ -274,7 +274,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 31,
     "is_makki": true,
-    "meaning_uz": "Luqmon",
+    "meaning_uz": "Луқмон",
     "name_uz": "Луқмон",
     "verses_count": 34,
     "verses_start": 3470,
@@ -283,7 +283,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 32,
     "is_makki": true,
-    "meaning_uz": "Sajda",
+    "meaning_uz": "Сажда",
     "name_uz": "Сажда",
     "verses_count": 30,
     "verses_start": 3504,
@@ -292,7 +292,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 33,
     "is_makki": false,
-    "meaning_uz": "Firqalar",
+    "meaning_uz": "Фирқалар",
     "name_uz": "Аҳзоб",
     "verses_count": 73,
     "verses_start": 3534,
@@ -301,7 +301,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 34,
     "is_makki": true,
-    "meaning_uz": "Saba (qabila nomi)",
+    "meaning_uz": "Саба (қабила номи)",
     "name_uz": "Сабаъ",
     "verses_count": 54,
     "verses_start": 3607,
@@ -310,7 +310,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 35,
     "is_makki": true,
-    "meaning_uz": "Ilk Yaratguvchi",
+    "meaning_uz": "Илк Яратгувчи",
     "name_uz": "Фотир",
     "verses_count": 45,
     "verses_start": 3661,
@@ -319,7 +319,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 36,
     "is_makki": true,
-    "meaning_uz": "Yo Sin",
+    "meaning_uz": "Ёсин",
     "name_uz": "Ёсин",
     "verses_count": 83,
     "verses_start": 3706,
@@ -328,7 +328,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 37,
     "is_makki": true,
-    "meaning_uz": "Saf tortib turguvchilar",
+    "meaning_uz": "Саф тортиб тургувчилар",
     "name_uz": "Вас-саффот",
     "verses_count": 182,
     "verses_start": 3789,
@@ -337,7 +337,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 38,
     "is_makki": true,
-    "meaning_uz": "Sod (harf)",
+    "meaning_uz": "Сод (ҳарф)",
     "name_uz": "Сод",
     "verses_count": 88,
     "verses_start": 3971,
@@ -346,7 +346,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 39,
     "is_makki": true,
-    "meaning_uz": "Guruhlar",
+    "meaning_uz": "Гуруҳлар",
     "name_uz": "Зумар",
     "verses_count": 75,
     "verses_start": 4059,
@@ -355,7 +355,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 40,
     "is_makki": true,
-    "meaning_uz": "Mag‘firat qilguvchi",
+    "meaning_uz": "Мағфират қилгувчи",
     "name_uz": "Ғофир",
     "verses_count": 85,
     "verses_start": 4134,
@@ -364,7 +364,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 41,
     "is_makki": true,
-    "meaning_uz": "Mufassal bayon qilingan",
+    "meaning_uz": "Муфассал баён қилинган",
     "name_uz": "Фуссилат",
     "verses_count": 54,
     "verses_start": 4219,
@@ -373,7 +373,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 42,
     "is_makki": true,
-    "meaning_uz": "Maslahat",
+    "meaning_uz": "Маслаҳат",
     "name_uz": "Шўро",
     "verses_count": 53,
     "verses_start": 4273,
@@ -382,7 +382,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 43,
     "is_makki": true,
-    "meaning_uz": "Zeb-ziynat",
+    "meaning_uz": "Зеб-зийнат",
     "name_uz": "Зухруф",
     "verses_count": 89,
     "verses_start": 4326,
@@ -418,7 +418,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 47,
     "is_makki": false,
-    "meaning_uz": "Muhammad",
+    "meaning_uz": "Муҳаммад",
     "name_uz": "Муҳаммад",
     "verses_count": 38,
     "verses_start": 4546,
@@ -445,7 +445,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 50,
     "is_makki": true,
-    "meaning_uz": "Qof (harf)",
+    "meaning_uz": "Қоф (ҳарф)",
     "name_uz": "Қоф",
     "verses_count": 45,
     "verses_start": 4631,
@@ -490,7 +490,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 55,
     "is_makki": false,
-    "meaning_uz": "Mehribon",
+    "meaning_uz": "Раҳмон",
     "name_uz": "Раҳмон",
     "verses_count": 78,
     "verses_start": 4902,
@@ -499,7 +499,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 56,
     "is_makki": false,
-    "meaning_uz": "Voqea",
+    "meaning_uz": "Воқеа",
     "name_uz": "Воқеа",
     "verses_count": 96,
     "verses_start": 4980,
@@ -580,7 +580,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 65,
     "is_makki": false,
-    "meaning_uz": "Taloq",
+    "meaning_uz": "Талоқ",
     "name_uz": "Талоқ",
     "verses_count": 12,
     "verses_start": 5218,
@@ -607,7 +607,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 68,
     "is_makki": true,
-    "meaning_uz": "Qalam (yozuv asbobi)[",
+    "meaning_uz": "Қалам",
     "name_uz": "Қалам",
     "verses_count": 52,
     "verses_start": 5272,
@@ -634,7 +634,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 71,
     "is_makki": true,
-    "meaning_uz": "Nuh (nom)",
+    "meaning_uz": "Нуҳ (исм)",
     "name_uz": "Нуҳ",
     "verses_count": 28,
     "verses_start": 5420,
@@ -643,7 +643,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 72,
     "is_makki": true,
-    "meaning_uz": "Jin",
+    "meaning_uz": "Жин",
     "name_uz": "Жин",
     "verses_count": 28,
     "verses_start": 5448,
@@ -670,7 +670,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 75,
     "is_makki": true,
-    "meaning_uz": "Qiyomat",
+    "meaning_uz": "Қиёмат",
     "name_uz": "Қиёмат",
     "verses_count": 40,
     "verses_start": 5552,
@@ -679,7 +679,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 76,
     "is_makki": false,
-    "meaning_uz": "Inson",
+    "meaning_uz": "Инсон",
     "name_uz": "Инсон",
     "verses_count": 31,
     "verses_start": 5592,
@@ -868,7 +868,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 97,
     "is_makki": true,
-    "meaning_uz": "Qadrli (kecha)",
+    "meaning_uz": "Қадрли (кеча)",
     "name_uz": "Қадр",
     "verses_count": 5,
     "verses_start": 6126,
@@ -877,7 +877,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 98,
     "is_makki": false,
-    "meaning_uz": "Aniq hujjat",
+    "meaning_uz": "Аниқ ҳужжат",
     "name_uz": "Баййина",
     "verses_count": 8,
     "verses_start": 6131,
@@ -886,7 +886,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 99,
     "is_makki": false,
-    "meaning_uz": "Zilzila",
+    "meaning_uz": "Зилзила",
     "name_uz": "Залзала",
     "verses_count": 8,
     "verses_start": 6139,
@@ -895,7 +895,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 100,
     "is_makki": true,
-    "meaning_uz": "Chopqir otlar",
+    "meaning_uz": "Чопқир отлар",
     "name_uz": "Адиёт",
     "verses_count": 11,
     "verses_start": 6147,
@@ -904,7 +904,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 101,
     "is_makki": true,
-    "meaning_uz": "Qalblarni qattiq qoqquvchi (Qiyomat)",
+    "meaning_uz": "Қалбларни қаттиқ қоққувчи (Қиёмат)",
     "name_uz": "Қориа",
     "verses_count": 11,
     "verses_start": 6158,
@@ -913,7 +913,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 102,
     "is_makki": true,
-    "meaning_uz": "To‘plab ko‘paytirishga berilmoq",
+    "meaning_uz": "Тўплаб кўпайтиришга берилмоқ",
     "name_uz": "Такасур",
     "verses_count": 8,
     "verses_start": 6169,
@@ -922,7 +922,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 103,
     "is_makki": true,
-    "meaning_uz": "Asr (namoz vaqti)",
+    "meaning_uz": "Аср",
     "name_uz": "Аср",
     "verses_count": 3,
     "verses_start": 6177,
@@ -931,7 +931,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 104,
     "is_makki": true,
-    "meaning_uz": "Bo‘htonchi",
+    "meaning_uz": "Бўҳтончи",
     "name_uz": "Ҳумаза",
     "verses_count": 9,
     "verses_start": 6180,
@@ -940,7 +940,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 105,
     "is_makki": true,
-    "meaning_uz": "Fil (hayvon)",
+    "meaning_uz": "Фил",
     "name_uz": "Фил",
     "verses_count": 5,
     "verses_start": 6189,
@@ -949,7 +949,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 106,
     "is_makki": true,
-    "meaning_uz": "Quraysh (qabila)",
+    "meaning_uz": "Қурайш (қабила)",
     "name_uz": "Қурайш",
     "verses_count": 4,
     "verses_start": 6194,
@@ -958,7 +958,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 107,
     "is_makki": true,
-    "meaning_uz": "Idish-tovoq",
+    "meaning_uz": "Моъун",
     "name_uz": "Моъун",
     "verses_count": 7,
     "verses_start": 6198,
@@ -967,7 +967,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 108,
     "is_makki": true,
-    "meaning_uz": "Kavsar",
+    "meaning_uz": "Кавсар",
     "name_uz": "Кавсар",
     "verses_count": 3,
     "verses_start": 6205,
@@ -976,7 +976,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 109,
     "is_makki": true,
-    "meaning_uz": "Kofirlar",
+    "meaning_uz": "Кофирлар",
     "name_uz": "Кофирун",
     "verses_count": 6,
     "verses_start": 6208,
@@ -985,7 +985,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 110,
     "is_makki": false,
-    "meaning_uz": "Yordam",
+    "meaning_uz": "Пишиқ тола",
     "name_uz": "Наср",
     "verses_count": 3,
     "verses_start": 6214,
@@ -994,7 +994,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 111,
     "is_makki": true,
-    "meaning_uz": "Pishiq tola",
+    "meaning_uz": "Пишиқ тола",
     "name_uz": "Масад",
     "verses_count": 5,
     "verses_start": 6217,
@@ -1003,7 +1003,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 112,
     "is_makki": true,
-    "meaning_uz": "Xolis qilish",
+    "meaning_uz": "Холис қилиш",
     "name_uz": "Ихлос",
     "verses_count": 4,
     "verses_start": 6222,
@@ -1012,7 +1012,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 113,
     "is_makki": true,
-    "meaning_uz": "Tong",
+    "meaning_uz": "Тонг",
     "name_uz": "Фалақ",
     "verses_count": 5,
     "verses_start": 6226,
@@ -1021,7 +1021,7 @@ const List<Map<String, dynamic>> _suraList = [
   {
     "id": 114,
     "is_makki": true,
-    "meaning_uz": "Odamlar",
+    "meaning_uz": "Одамлар",
     "name_uz": "Нас",
     "verses_count": 6,
     "verses_start": 6231,
