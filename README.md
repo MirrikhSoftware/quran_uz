@@ -1,3 +1,7 @@
+# Qur'oni karim
+
+[![pub package](https://img.shields.io/pub/v/quran_uz.svg)](https://pub.dev/packages/quran_uz)
+
 Assalomu alaykum va rahmatullohi va barokatuhu!
 
 Ushbu paket o'zida Qu'roni karimning arabiy matni, ma'nolar tarjimasi, suralar ro'yxati va boshqalari jamlagan. Quyida paketdan qanday foydalanishni ko'rib chiqamiz.
