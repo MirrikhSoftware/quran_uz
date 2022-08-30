@@ -1,5 +1,4 @@
-part of 'quran_uz_base.dart';
-
+List<Map<String, dynamic>> get suraList => _suraList;
 const List<Map<String, dynamic>> _suraList = [
   {
     "id": 1,
