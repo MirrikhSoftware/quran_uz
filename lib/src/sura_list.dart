@@ -1,4 +1,4 @@
-List<Map<String, dynamic>> get suraList => _suraList;
+List<Map<String, dynamic>> get suraMapList => _suraList;
 const List<Map<String, dynamic>> _suraList = [
   {
     "id": 1,
