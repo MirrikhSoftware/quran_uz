@@ -1,6 +1,9 @@
 # Qur'oni karim
 
 [![pub package](https://img.shields.io/pub/v/quran_uz.svg)](https://pub.dev/packages/quran_uz)
+![version](https://img.shields.io/badge/version-1.2.3-blue)
+![contributors](https://img.shields.io/github/contributors/MirrikhOpenSource/quran_uz)
+![commits](https://img.shields.io/github/commit-activity/m/MirrikhOpenSource/quran_uz)
 
 Assalomu alaykum va rahmatullohi va barokatuhu!
 
