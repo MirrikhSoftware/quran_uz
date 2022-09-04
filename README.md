@@ -7,7 +7,22 @@
 
 Assalomu alaykum va rahmatullohi va barokatuhu!
 
-Ushbu paket o'zida Qu'roni karimning arabiy matni, ma'nolar tarjimasi, suralar ro'yxati va boshqalari jamlagan. Quyida paketdan qanday foydalanishni ko'rib chiqamiz.
+Ushbu paket yordamida Qur'oni karim ilovalar ishlab chiqarishingiz mumkin.
+U quyidagilarni o'z ichiga olgan
+
+### Suralar
+* Suralar ro'yxati
+* Sura nomi
+* Suraning arabiy nomi
+* Nozil bo'lgan joyi (Makkiy yoki Madaniy ekanligi)
+* Oyatlar soni
+
+### Oyatlar
+* Oyatlarning arabiy matni 
+* Oyatlarning arabiy matni (harakatsiz)
+* Ma'nolar tarjimasi
+* Sura raqami
+* Pora raqami
 
 ## O'rnatish
 
