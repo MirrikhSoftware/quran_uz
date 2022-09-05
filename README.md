@@ -1,7 +1,7 @@
 # Qur'oni karim
 
 [![pub package](https://img.shields.io/pub/v/quran_uz.svg)](https://pub.dev/packages/quran_uz)
-![version](https://img.shields.io/badge/version-1.2.3-blue)
+![version](https://img.shields.io/badge/version-1.0.3-blue)
 ![contributors](https://img.shields.io/github/contributors/MirrikhOpenSource/quran_uz)
 ![commits](https://img.shields.io/github/commit-activity/m/MirrikhOpenSource/quran_uz)
 
@@ -85,7 +85,7 @@ List<Verse> verses = quranUz.getVerseListBySuraId(sura.id!);
 
 ## Fikr mulohazalar uchun
 
-Agar paketda biror xatoga yo'l qo'yilgan bo'lsa, darxol xabar berishingizni iltimos qilamiz. Xatolarni github'dagi [issues](https://github.com/MirrikhOpenSource/quran_uz/issues/new) bo'limida qoldiring. Agar paketga qandaydir qulaylik qo'shishni xohlasangiz github "request".
+Agar paketda biror xatoga yo'l qo'yilgan bo'lsa, darxol xabar berishingizni iltimos qilamiz. Xatolarni github'dagi [issues](https://github.com/MirrikhOpenSource/quran_uz/issues/new) bo'limida qoldiring. Agar paketga qandaydir qulaylik qo'shishni xohlasangiz github'da kontribyutor sifatida qo'shiling.
 
 
 
