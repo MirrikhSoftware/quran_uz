@@ -1,20 +1,26 @@
-# Qur'oni karim
+# Qur'oni Karim
 
+[![platform](https://img.shields.io/badge/Platform-Dart-02569B?logo=dart)](https://dart.dev)
 [![pub package](https://img.shields.io/pub/v/quran_uz.svg)](https://pub.dev/packages/quran_uz)
-![version](https://img.shields.io/badge/version-1.0.3-blue)
-![contributors](https://img.shields.io/github/contributors/MirrikhOpenSource/quran_uz)
-![commits](https://img.shields.io/github/commit-activity/m/MirrikhOpenSource/quran_uz)
+[![mit lisense](https://img.shields.io/github/license/aagarwal1012/animated-text-kit?color=red)](https://opensource.org/licenses/MIT)
+[![version](https://img.shields.io/badge/version-1.0.3-blue)](https://github.com/MirrikhOpenSource/quran_uz)
+[![contributors](https://img.shields.io/github/contributors/MirrikhOpenSource/quran_uz)](https://github.com/MirrikhOpenSource/quran_uz/contributors)
+[![commits](https://img.shields.io/github/commit-activity/m/MirrikhOpenSource/quran_uz)](https://github.com/MirrikhOpenSource/quran_uz/pulse)
+<br>
+<br>
+[![commits](https://cdn.syncfusion.com/content/images/FTControl/google-play-store.png)](https://play.google.com/store/apps/details?id=uz.mirrikhsoftware.quran)
+[![version](https://cdn.syncfusion.com/content/images/FTControl/github-samples.png)](https://github.com/MirrikhOpenSource/quran_uz)
 
 Assalomu alaykum va rahmatullohi va barokatuhu!
 
-Ushbu paket yordamida Qur'oni karim ilovalar ishlab chiqarishingiz mumkin.
+Ushbu paket yordamida Qur'oni Karim ilovalar ishlab chiqarishingiz mumkin.
 U quyidagilarni o'z ichiga olgan
 
 ### Suralar
 * Suralar ro'yxati
 * Sura nomi
 * Suraning arabiy nomi
-* Nozil bo'lgan joyi (Makkiy yoki Madaniy ekanligi)
+* Nozil bo'lgan joyi (Makkada yoki Madinada)
 * Oyatlar soni
 
 ### Oyatlar
