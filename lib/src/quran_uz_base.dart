@@ -30,4 +30,7 @@ class QuranUz {
   ///   suraId (int): The id of the sura.
   List<Verse> getVerseListBySuraId(int suraId) =>
       verseList.where((verse) => verse.suraId == suraId).toList();
+
+  List<Verse> getVerseListByParaNo(int paraNo) =>
+      verseList.where((verse) => verse.paraNo == paraNo).toList();
 }

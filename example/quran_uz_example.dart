@@ -21,7 +21,9 @@ void main(List<String> args) {
 
   /// Getting the Sura object by its id.
   Sura sura = quranUz.getSuraById(36);
+  print(sura.toJson());
 
   /// Getting the verses of the sura by its id.
   List<Verse> verses = quranUz.getVerseListBySuraId(sura.id!);
+  print(verses.length);
 }
