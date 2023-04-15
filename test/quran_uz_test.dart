@@ -25,7 +25,7 @@ void main() {
     });
 
     test('getVerseListByParaNo returns correct list of Verse objects', () {
-      final verses = quranUz.getVerseListByParaNo(1);
+      final verses = quranUz.getVerseListByJuzNo(1);
       expect(verses.length, equals(148));
       expect(
           verses[0].meaning,

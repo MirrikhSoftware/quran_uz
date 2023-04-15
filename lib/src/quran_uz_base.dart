@@ -1,8 +1,8 @@
-import 'package:quran_uz/src/sura_list.dart';
-import 'package:quran_uz/src/sura_model.dart';
-import 'package:quran_uz/src/verses.dart';
+import 'package:quran_uz/src/data/sura_list.dart';
+import 'package:quran_uz/src/models/sura_model.dart';
+import 'package:quran_uz/src/data/verses.dart';
 
-import 'verse_model.dart';
+import 'models/verse_model.dart';
 
 class QuranUz {
   /// A getter function. It returns a list of Sura objects.
@@ -31,6 +31,6 @@ class QuranUz {
   List<Verse> getVerseListBySuraId(int suraId) =>
       verseList.where((verse) => verse.suraId == suraId).toList();
 
-  List<Verse> getVerseListByParaNo(int paraNo) =>
-      verseList.where((verse) => verse.paraNo == paraNo).toList();
+  List<Verse> getVerseListByJuzNo(int paraNo) =>
+      verseList.where((verse) => verse.juzNo == paraNo).toList();
 }

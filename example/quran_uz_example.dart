@@ -7,7 +7,7 @@ void main(List<String> args) {
   /// Printing all the sura list in the Quran al-Karim.
   for (var sura in quranUz.suraList) {
     print('Sura no: ${sura.id}');
-    print('Place: ${sura.isMakki! ? "Makka" : "Madina"}');
+    print('Place: ${sura.isMakki ? "Makka" : "Madina"}');
     print('Arabic name: ${sura.nameAr}');
     print('Uzbek name: ${sura.nameUz}');
   }
@@ -24,6 +24,6 @@ void main(List<String> args) {
   print(sura.toJson());
 
   /// Getting the verses of the sura by its id.
-  List<Verse> verses = quranUz.getVerseListBySuraId(sura.id!);
+  List<Verse> verses = quranUz.getVerseListBySuraId(sura.id);
   print(verses.length);
 }

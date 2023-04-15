@@ -1,0 +1,14 @@
+name: Dart CI
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  code-analysis-and-testing:
+    if: true
+    name: Code analysis and testing
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    
