@@ -63,10 +63,10 @@ class AudioModel extends Equatable {
 
   factory AudioModel.fromMap(Map<String, dynamic> map) {
     return AudioModel(
-      low: map['low'] as String,
-      medium: map['medium'] as String,
-      lowSecondary: map['low_secondary'] as String,
-      mediumSecondary: map['medium_secondary'] as String,
+      low: (map['low'] as String?) ?? "",
+      medium: (map['medium'] as String?) ?? "",
+      lowSecondary: (map['low_secondary'] as String?) ?? "",
+      mediumSecondary: (map['medium_secondary'] as String?) ?? "",
     );
   }
 

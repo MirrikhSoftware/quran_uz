@@ -1,3 +1,5 @@
+import 'package:quran_uz/src/models/audio_model.dart';
+
 class Verse {
   Verse({
     int? id,
@@ -7,6 +9,7 @@ class Verse {
     String? plain,
     String? arabic,
     String? meaning,
+    AudioModel? audio,
   }) {
     _id = id;
     _juzNo = juzNo;
@@ -25,6 +28,9 @@ class Verse {
     _plain = json['plain'];
     _arabic = json['arabic'];
     _meaning = json['meaning'];
+    if (json['audio'] != null) {
+      _audio = AudioModel.fromMap(json['audio']);
+    }
   }
 
   int? _id;
@@ -34,6 +40,7 @@ class Verse {
   String? _plain;
   String? _arabic;
   String? _meaning;
+  AudioModel? _audio;
 
   Verse copyWith({
     int? id,
@@ -43,6 +50,7 @@ class Verse {
     String? plain,
     String? arabic,
     String? meaning,
+    AudioModel? audio,
   }) =>
       Verse(
         id: id ?? _id,
@@ -52,6 +60,7 @@ class Verse {
         plain: plain ?? _plain,
         arabic: arabic ?? _arabic,
         meaning: meaning ?? _meaning,
+        audio: audio ?? _audio,
       );
 
   int get id => _id ?? 0;
@@ -68,6 +77,9 @@ class Verse {
 
   String get meaning => _meaning ?? "";
 
+  AudioModel get audio => _audio ?? AudioModel.fromJson("{}");
+  set setAudio(AudioModel audioModel) => _audio = audioModel;
+
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     map['id'] = _id;
@@ -77,6 +89,7 @@ class Verse {
     map['plain'] = _plain;
     map['arabic'] = _arabic;
     map['meaning'] = _meaning;
+    map['audio'] = _audio?.toMap();
     return map;
   }
 }
